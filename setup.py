@@ -15,6 +15,7 @@ setup(
     install_requires=[
         "jupyterlite-core[all]",
         "jupyterlite-pyodide-kernel",
+        "jupyterlab_myst",
         "jupyter-repo2docker",
         "yarl",
     ],
