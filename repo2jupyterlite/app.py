@@ -69,10 +69,6 @@ def build(repo_dir, output_dir):
         "lite",
         "build",
         ".",
-        "--output-dir",
-        abs_output_path,
-        "--contents",
-        ".",
     ]
     if os.path.exists(os.path.join(repo_dir, "jupyterlite_config.json")):
         cmd += ["--config", "jupyterlite_config.json"]
